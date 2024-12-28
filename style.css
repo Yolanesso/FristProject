@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 44px 120px 26px;
+}
+
+.nav__list {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav__item {
+    list-style: none;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.nav__link:hover {
+    color: #154444;
+}
+
+.header__search-image {
+    margin-right: 30px;
+}
+
+
+.about__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    background-color: #154444;
+    max-height: 560px;
+    margin: 0 auto 140px;
+}
+
+.about__img {
+    margin-right: 0px;
+}
+
+.about__content {
+    max-width: 60%;
+    text-align: left;
+}
+
+
+.about__text {
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.about__title {
+    font-family: "Montserrat", serif;
+    font-weight: 700;
+    font-size: 56px;
+    color: #FFFFFF;
+}
+
+.about__text p {
+    font-family: "DM Sans", serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.about__btn {
+    padding: 16px 26px;
+    background: #FFFFFF;
+    border-style: none;
+    color: #154444;
+    margin-top: 20px;
+}
+
+.trusted__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 180px;
+    padding-left: 180px;
+}
+
+.trusted__title {
+    font-family: "DM Sans", serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #154444;
+    margin-bottom: 40px;
+}
+
+.trusted__company {
+    margin-bottom: 140px
+}
+
+.trusted__company--img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trusted__company--link {
+    margin-right: 100px;
+    text-decoration: none;
+}
+
+.info {
+    margin-left: 300px;
+    margin-bottom: 140px;
+}
+
+.info__container {
+    display: flex;
+    align-items: center;
+}
+
+.info__img {
+    margin-right: 100px;
+}
+
+.info__about {
+    max-width: 440px;
+}
+
+.info__title {
+    font-family: "Montserrat", serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #244D4D;
+}
+
+.info__text {
+    font-family: "DM Sans", serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #444444;
+}
+
+.info__card__items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info__card--image {
+    margin-right: 28px;
+}
+
+.info__card--title {
+    font-family: "Montserrat", serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #244D4D;
+}
+
+.info__card--text {
+    font-family: "DM Sans", serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #444444;
+    max-width: 400px;
+}
+
+.popular {
+    margin-bottom: 140px;
+}
+
+.popular__card {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.popular__container {
+    margin-left: 300px;
+}
+
+.popular__info {
+    max-width: 820px;
+    margin-bottom: 80px;
+}
+
+.popular__title {
+    font-family: "Montserrat", serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #242424;
+}
+
+.popular__text {
+    font-family: "DM Sans", serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #444444;
+}
+
+.popular__card__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 350px;
+}
+
+.popular__card--title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 280px;;
+}
+
+.popular__card--items {
+    display: flex;
+    margin-right: -90px;
+}
+
+.popular__card__price {
+    display: flex;
+    margin-right: -130px;
+}
+
+.popular__card--price {
+    margin-right: 270px;
+    font-family: "DM Sans", serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #154444;
+    margin-left: 25px;
+}
+
+.popular__card--text {
+    margin-right: 30px;
+    font-family: "DM Sans", serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #242424;
+    margin-left: 24px;
+}
+
+.popular__card--items {
+    margin-left: 10px;
+}
+
+
+.popular__card--content {
+    max-width: 332px;
+}
+
+.furniture__category__header {
+    display: flex;
+    justify-content: center;
+}
+
+.furniture__category__header-title {
+    font-family: "Montserrat", serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #242424;
+}
+
+.furniture__category--title-active {
+    font-family: "DM Sans", serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #154444;
+}
+
+.furniture__category--title {
+    font-family: "DM Sans", serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #919090;
+}
+
+.furniture__category {
+    padding-left: 550px;
+    padding-right: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+
+.furniture__card__img {
+    padding-left: 300px;
+}
+
+.furniture__card__category--item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-right: 30px;
+    padding: 16px 67px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    max-height: 90px;
+}
+
+.furniture__card__container {
+    display: flex;
+}
+
+.furniture__card__img {
+    margin-right: 135px;
+}
+
+.furniture__card__category__container {
+    display: flex;
+}
+
+.furniture__card__category__container--items {
+    display: flex;
+    flex-direction: column;
+}
+
+.furniture {
+    margin-bottom: 140px;
+}
+
+.customers__feetback--rating {
+    display: flex;
+}
+
+.customers__feetback {
+    display: flex;
+}
+
+.customers__container {
+    display: flex;
+    padding-left: 205px;
+    padding-right: 205px;
+}
+
+.container__img {
+    margin-right: 100px;
+}
+
+.customers__info {
+    margin-top: 80px;
+}
+
+.customers__title {
+    max-width: 535px;
+    font-family: "Montserrat", serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #242424;
+}
+
+.customers__text {
+    max-width: 535px;
+    font-family: "DM Sans", serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #383738;
+}
+
+.customers__feetback--img {
+    margin-right: 10px;
+}
+
+.customers__feetback--name {
+    font-family: "DM Sans", serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #383738;
+}
+
+.customers {
+    margin-bottom: 140px;
+}
+
+.subscribe {
+    padding: 50px 0;
+}
+
+.subscribe__background {
+    max-width: 1200px; /* Ограничение ширины закрашенного блока */
+    background-color: #F4F6F6; /* Цвет фона внутреннего блока */
+    margin: 0 auto; /* Центрирование закрашенного блока */
+    padding: 50px 20px; /* Отступы внутри закрашенного блока */
+    border-radius: 8px; /* Добавим скругление углов (опционально) */
+}
+
+.subscribe__container {
+    display: flex;
+    flex-direction: column; /* Выравнивание в колонку */
+    align-items: center;
+    text-align: center; /* Центровка текста */
+}
+
+.subscribe__info {
+    max-width: 600px;
+    align-items: center;
+    display: block;
+    justify-content: center;
+}
+
+.subscribe__title {
+    font-family: "Montserrat", serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #242424;
+    line-height: 48px;
+    margin-bottom: 20px;
+}
+
+.subscribe__text {
+    font-family: "DM Sans", serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #383738;
+    margin-bottom: 20px;
+}
+
+.subscribe__form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.subscribe__input {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.subscribe__button {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #242424;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.subscribe__button:hover {
+    background-color: #383738;
+}
+
